@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: rgb(0, 33, 123);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #f6f6f6;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -122,7 +122,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #787878;
+		color: #ffffff;
 		font-weight: 400;
 	}
 
@@ -135,7 +135,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #e1ed02;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2126,7 +2126,9 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 500px;
+			height: auto;
+			
 		}
 
 			.image.fit img {
@@ -2135,6 +2137,7 @@ input, select, textarea {
 
 		.image.avatar {
 			border-radius: 100%;
+			
 		}
 
 			.image.avatar:before {
@@ -2143,7 +2146,8 @@ input, select, textarea {
 
 			.image.avatar img {
 				border-radius: 100%;
-				width: 100%;
+				width: 200px;
+				height: 210px;
 			}
 
 /* List */
