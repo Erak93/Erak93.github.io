@@ -1,1 +1,3 @@
-# Erak93.github.io
+# Gia Ciudino Portfolio
+
+A simplye porfolio to display my projects
